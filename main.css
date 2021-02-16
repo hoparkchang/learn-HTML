@@ -1,0 +1,156 @@
+* {
+  margin: 0%;
+  padding : 0%;
+
+  /* top  */
+}
+.wrap-top {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+.top {
+  width: 600px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  text-align: right;
+  padding-top:15px;
+  font-weight: bold;
+}
+
+ /* header  */
+.wrap-header {
+  width: 100%;
+  background-color: white;
+  display: block;
+}
+
+header> img{
+  margin: 0 auto;
+  width: 600px;
+  height: 150px;
+  display: block;
+
+}
+/* nav  */
+.wrap-nav li {
+  width: 100px;
+}
+.wrap-nav {
+  width: 100%;
+  background-color: white;
+  
+}
+nav{
+  width: 600px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: black;
+  display: block;
+  }
+
+  /* ul  */
+  .wrap-nav ul  {
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  ul {
+    display: block;
+    text-decoration: none;
+  }
+  
+li {  
+  display: inline-block;
+  margin: 0 auto;
+  text-decoration: none;
+  padding-top:15px;
+  font-weight: bold;
+  color: white;
+}
+
+lI:hover {
+  text-decoration: underline;
+}
+
+/* main  */
+
+.textbox {
+  font-weight: bold;
+}
+
+.wrap-main { 
+  /* background-color: pink; */
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  display: block;
+}
+
+.main-left {
+  background-color: lightskyblue;
+  width: 20%;
+  height: 100%;
+  margin:0 auto;
+  display: block;
+  float:left;
+}
+
+.main-right {
+  background-color: lightcyan;
+  width: 100%;
+  height: 100%;
+  margin:0 auto;
+  /* display: block; */
+}
+
+section {
+display: block;
+width: 250px;
+background-color: white;
+margin: 0 auto;
+
+
+}
+
+.s-e {
+  display: block;
+  background-color: green;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  
+}
+
+h3 {
+  text-align: center;
+  letter-spacing: 0.5rem;
+  background-color: lightcyan;
+  padding: 10px;
+  padding-top: 30px;
+  
+}
+
+/* footer  */
+
+.wrap-footer {
+  outline: red solid 3px;
+  display: block;
+  width: 600px;
+}
+
+footer {
+  /* outline: solid blue 3px; */
+  width: 600px;
+  height: 70px;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: bold;
+  background-color: grey;
+  text-align: center;
+  margin: 0 auto;
+line-height: 70px;}
